@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa de Serviços Essenciais</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Leaflet para mapas -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+  <h1>🗺️ Serviços Essenciais Perto de Você</h1>
+  <p>Escolha uma categoria e veja no mapa:</p>
+
+  <select id="category">
+    <option value="pharmacy">Farmácias</option>
+    <option value="hospital">Hospitais</option>
+    <option value="supermarket">Mercados</option>
+    <option value="recycling">Pontos de Reciclagem</option>
+  </select>
+  <button id="search">Buscar</button>
+
+  <div id="map"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
